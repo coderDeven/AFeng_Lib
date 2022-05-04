@@ -1,0 +1,22 @@
+{
+  "name": "AFeng_Lib",
+  "version": "0.1.0",
+  "summary": "A short description of AFeng_Lib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Deven/AFeng_Lib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Deven": "coderdeven@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/Deven/AFeng_Lib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AFeng_Lib/Classes/**/*"
+}

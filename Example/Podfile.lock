@@ -1,0 +1,16 @@
+PODS:
+  - AFeng_Lib (0.1.0)
+
+DEPENDENCIES:
+  - AFeng_Lib (from `../`)
+
+EXTERNAL SOURCES:
+  AFeng_Lib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFeng_Lib: 2317e514d75e002fd43f0abe34373daf9bdaa41c
+
+PODFILE CHECKSUM: 52795e14a892f10fe23cab3b78daf58dd8619d4b
+
+COCOAPODS: 1.11.3
