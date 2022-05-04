@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05C6723E2822763600F1F28F /* AFeng_Lib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C6723D2822763600F1F28F /* AFeng_Lib.framework */; };
 		157144E14AE6E348D265B4FB /* Pods_AFeng_Lib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 859C8AE6321179A05A320ABF /* Pods_AFeng_Lib_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C6723D2822763600F1F28F /* AFeng_Lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFeng_Lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1413F8D74DFF601E1D610E /* Pods-AFeng_Lib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFeng_Lib_Example.release.xcconfig"; path = "Target Support Files/Pods-AFeng_Lib_Example/Pods-AFeng_Lib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4EF5694A6EA8000C40624134 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AFeng_Lib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFeng_Lib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				05C6723E2822763600F1F28F /* AFeng_Lib.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				9A2E81D4CB2770A12BF9A2CF /* Pods_AFeng_Lib_Example.framework in Frameworks */,
@@ -130,6 +133,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				05C6723D2822763600F1F28F /* AFeng_Lib.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -435,6 +439,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/AFeng_Lib-dekkyisawxvsfcavfygzgnpelalz/Build/Products/Debug-iphonesimulator/AFeng_Lib/AFeng_Lib.framework\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -475,6 +480,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/../../../../../../Library/Developer/Xcode/DerivedData/AFeng_Lib-dekkyisawxvsfcavfygzgnpelalz/Build/Products/Debug-iphonesimulator/AFeng_Lib/AFeng_Lib.framework\"";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -497,6 +503,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFeng_Lib/AFeng_Lib-Prefix.pch";
 				INFOPLIST_FILE = "AFeng_Lib/AFeng_Lib-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +520,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AFeng_Lib/AFeng_Lib-Prefix.pch";
 				INFOPLIST_FILE = "AFeng_Lib/AFeng_Lib-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

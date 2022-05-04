@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
   This is A lib for test. created by AFeng
                        DESC
 
-  s.homepage         = 'https://github.com/Deven/AFeng_Lib'
+  s.homepage         = 'https://github.com/coderDeven/AFeng_Lib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Deven' => 'coderdeven@outlook.com' }
-  s.source           = { :git => 'https://github.com/Deven/AFeng_Lib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/coderDeven/AFeng_Lib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'AFeng_Lib/Classes/**/*'
+  s.source_files = 'AFeng_Lib/Source/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'AFeng_Lib' => ['AFeng_Lib/Assets/*.png']

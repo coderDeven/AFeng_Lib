@@ -7,6 +7,7 @@
 //
 
 #import "AFL_ViewController.h"
+#import <AFeng_Lib/AFL_Header.h>
 
 @interface AFL_ViewController ()
 
@@ -18,6 +19,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    NSLog(@"%s",__func__);
+    
+    AFL_RootOBJ *obj = [[AFL_RootOBJ alloc] init];
+    
+    [obj saySomething];
 }
 
 - (void)didReceiveMemoryWarning

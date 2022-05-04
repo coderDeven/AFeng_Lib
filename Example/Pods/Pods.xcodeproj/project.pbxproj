@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05C6723428226E0100F1F28F /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 05C6723328226E0100F1F28F /* .gitkeep */; };
+		05C6723C282275DC00F1F28F /* AFL_Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C6723B282275C900F1F28F /* AFL_Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05C6724428227BF900F1F28F /* AFL_RootOBJ.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C6724228227BF900F1F28F /* AFL_RootOBJ.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05C6724528227BF900F1F28F /* AFL_RootOBJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C6724328227BF900F1F28F /* AFL_RootOBJ.m */; };
 		5CB81824EB455A27F2F245764635A111 /* AFeng_Lib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28693FF5EAC4E60FA4099B483AE18F12 /* AFeng_Lib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9481831693CD81738971ED6DC32CD04F /* Pods-AFeng_Lib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AD0C4C81BAB4DBABFDFCBA04FED835 /* Pods-AFeng_Lib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A053E0D8EC014F3EB312010C1529A377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,13 +40,15 @@
 
 /* Begin PBXFileReference section */
 		022CDA17DC0921B52AAC4A844DF0AE7A /* Pods-AFeng_Lib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFeng_Lib_Tests-Info.plist"; sourceTree = "<group>"; };
-		05C6723328226E0100F1F28F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		05C6723B282275C900F1F28F /* AFL_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFL_Header.h; sourceTree = "<group>"; };
+		05C6724228227BF900F1F28F /* AFL_RootOBJ.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFL_RootOBJ.h; sourceTree = "<group>"; };
+		05C6724328227BF900F1F28F /* AFL_RootOBJ.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFL_RootOBJ.m; sourceTree = "<group>"; };
 		07CD039B46A5C6F6905229431164B42B /* AFeng_Lib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFeng_Lib-Info.plist"; sourceTree = "<group>"; };
 		080A6552C65F989AEC4094A8F3AFAD5A /* AFeng_Lib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFeng_Lib-dummy.m"; sourceTree = "<group>"; };
 		124A45195B2204DB6C6C3EBDDEC96C0D /* Pods-AFeng_Lib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFeng_Lib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		25EDE7B002FDCAB20ECE802054704691 /* AFeng_Lib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFeng_Lib.modulemap; sourceTree = "<group>"; };
 		28693FF5EAC4E60FA4099B483AE18F12 /* AFeng_Lib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFeng_Lib-umbrella.h"; sourceTree = "<group>"; };
-		34083E69508DB29D95096201886C35AE /* AFeng_Lib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFeng_Lib; path = AFeng_Lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34083E69508DB29D95096201886C35AE /* AFeng_Lib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFeng_Lib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3497972B84828AC042ED3A703D6BF963 /* Pods-AFeng_Lib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AFeng_Lib_Example"; path = Pods_AFeng_Lib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3806974C250DE442DB0D1B5E60CF0B06 /* Pods-AFeng_Lib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AFeng_Lib_Tests.modulemap"; sourceTree = "<group>"; };
 		438671C14520CFBCABE2FEB74AB86D99 /* Pods-AFeng_Lib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFeng_Lib_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -100,13 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05C6723228226E0100F1F28F /* Classes */ = {
+		05C672362822745300F1F28F /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				05C6723328226E0100F1F28F /* .gitkeep */,
+				05C6723B282275C900F1F28F /* AFL_Header.h */,
+				05C6724228227BF900F1F28F /* AFL_RootOBJ.h */,
+				05C6724328227BF900F1F28F /* AFL_RootOBJ.m */,
 			);
-			name = Classes;
-			path = AFeng_Lib/Classes;
+			name = Source;
+			path = AFeng_Lib/Source;
 			sourceTree = "<group>";
 		};
 		32A4B17F65987FD8E7F5BDE000069FBB /* Development Pods */ = {
@@ -138,7 +144,7 @@
 		88183D6020A656D76842B100D9BD239A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				34083E69508DB29D95096201886C35AE /* AFeng_Lib */,
+				34083E69508DB29D95096201886C35AE /* AFeng_Lib.framework */,
 				3497972B84828AC042ED3A703D6BF963 /* Pods-AFeng_Lib_Example */,
 				D3E2F07A92FFF054FD189AEA7AAA7CA6 /* Pods-AFeng_Lib_Tests */,
 			);
@@ -165,7 +171,7 @@
 		CDAF6B8E3A42F0E592C7D066528DFC46 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				05C6723228226E0100F1F28F /* Classes */,
+				05C672362822745300F1F28F /* Source */,
 				C11582DADA59E97BDFD7411068C95756 /* AFeng_Lib.podspec */,
 				477F38BD1583B9663EC0B12C84809642 /* LICENSE */,
 				7FFB080F6FE62F3BD479F862698BC24E /* README.md */,
@@ -247,6 +253,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C6724428227BF900F1F28F /* AFL_RootOBJ.h in Headers */,
+				05C6723C282275DC00F1F28F /* AFL_Header.h in Headers */,
 				5CB81824EB455A27F2F245764635A111 /* AFeng_Lib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +285,7 @@
 			);
 			name = AFeng_Lib;
 			productName = AFeng_Lib;
-			productReference = 34083E69508DB29D95096201886C35AE /* AFeng_Lib */;
+			productReference = 34083E69508DB29D95096201886C35AE /* AFeng_Lib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		89DA3E1995A26BFDF1847CBFC30EDA1E /* Pods-AFeng_Lib_Example */ = {
@@ -366,7 +374,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C6723428226E0100F1F28F /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C6724528227BF900F1F28F /* AFL_RootOBJ.m in Sources */,
 				C38F13E96CE76C371A1B316BC0332821 /* AFeng_Lib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +436,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/AFeng_Lib/AFeng_Lib-prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../AFeng_Lib/Source\"";
 				INFOPLIST_FILE = "Target Support Files/AFeng_Lib/AFeng_Lib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -440,6 +449,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../AFeng_Lib/Source\"";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -622,6 +632,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/AFeng_Lib/AFeng_Lib-prefix.pch";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../AFeng_Lib/Source\"";
 				INFOPLIST_FILE = "Target Support Files/AFeng_Lib/AFeng_Lib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -634,6 +645,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../AFeng_Lib/Source\"";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
