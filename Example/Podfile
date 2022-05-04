@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'AFeng_Lib_Example' do
+  pod 'AFeng_Lib', :path => '../'
+
+  target 'AFeng_Lib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
