@@ -11,10 +11,10 @@
 
 - (void)saySomething{
     NSLog(@"YES! I Can!");
-    NSLog(@"Come on ! Study ");
+    NSLog(@"Come on ! Study !");
 }
 
 - (void)logVersion{
-    NSLog(@"0.1.3");
+    NSLog(@"0.1.4");
 }
 @end
