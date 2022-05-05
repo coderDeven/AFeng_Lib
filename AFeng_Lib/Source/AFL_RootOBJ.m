@@ -11,6 +11,7 @@
 
 - (void)saySomething{
     NSLog(@"YES! I Can!");
+    NSLog(@"Come on ! Study ");
 }
 
 @end
