@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFeng_Lib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'A lib for test'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 #   s.frameworks = 'UIKit'
-   s.dependency 'AFNetworking', '~> 4.0.1'
-   s.dependency 'YYModel'
+#   s.dependency 'AFNetworking', '~> 4.0.1'
+#   s.dependency 'YYModel'
 end

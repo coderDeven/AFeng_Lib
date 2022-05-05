@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)saySomething;
 
+- (void)logVersion;
+
 @end
 
 NS_ASSUME_NONNULL_END

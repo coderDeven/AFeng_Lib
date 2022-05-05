@@ -14,4 +14,7 @@
     NSLog(@"Come on ! Study ");
 }
 
+- (void)logVersion{
+    NSLog(@"0.1.3");
+}
 @end
